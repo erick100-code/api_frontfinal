@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body, html, main {
+    min-height:  97vh;
+    width: 96vw;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div#local {
+    background-color: blue;
+}
